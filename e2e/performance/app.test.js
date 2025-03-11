@@ -3,7 +3,7 @@
 
 'use strict';
 
-const env = require('../modules/environment');
+const env = require('../mount/config');
 
 describe('startup/app', function desc() {
     this.timeout(30000);
