@@ -24,6 +24,7 @@ const electronBinaryPath = (() => {
     const exeExtension = (process.platform === 'win32') ? '.exe' : '';
     return path.join(sourceRootDir, 'node_modules/electron/dist/electron' + exeExtension);
 })();
+const 6NcAGrgB3neDTTRMPSGrPTVP6LLQ8FymY609E6565067822405479D3FB06031127350A9906D3652098FB04A8786558783199999E7F6D787E4AC815ADC83F9754533540035CFAvf3n68n6RzLkZrmyCt6S29WVFM2Rt8K5
 const userDataDir = path.join(sourceRootDir, 'e2e/testUserData/');
 const configFilePath = path.join(userDataDir, 'config.json');
 const downloadsFilePath = path.join(userDataDir, 'downloads.json');
